@@ -1,5 +1,5 @@
 {
-  "revision_id": "f89790c489149261850c5e0feae22208bba5f55336a0ff1ab4588e2047da2cfa",
+  "revision_id": "6ea54cb772db405e0e4bea3d9133428460110f37ce193bf2034844fffcc6c75f",
   "name": "common_core",
   "run_list": [
     "recipe[common_core::default]"
@@ -7,15 +7,15 @@
   "cookbook_locks": {
     "common_core": {
       "version": "0.1.0",
-      "identifier": "625fb060115a505858bb2b2db3dbb50ea9208d90",
-      "dotted_decimal_identifier": "27689758848277072.24867358857081819.199074571652496",
+      "identifier": "dcb0c7eaba88f1e5f2ca04523d2b80ef6a14b4ff",
+      "dotted_decimal_identifier": "62118867559418097.64724719136554283.141765765281023",
       "source": ".",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": null,
-        "working_tree_clean": true,
+        "remote": "git@github.com:JonathanSerafini/chef-common_core.git",
+        "revision": "b5d1aaba61f8d6173375cfb04d6348e24a4d1aa9",
+        "working_tree_clean": false,
         "published": false,
         "synchronized_remote_branches": [
 
@@ -26,19 +26,18 @@
       }
     },
     "common_linux": {
-      "version": "0.1.0",
-      "identifier": "7cef7c0dc809d651fd339e14561f4f1d8dfbb66c",
-      "dotted_decimal_identifier": "35166213198318038.23077871250855455.86988354729580",
+      "version": "0.1.1",
+      "identifier": "6a34d894135fc1b9d268fa143b382370d104743d",
+      "dotted_decimal_identifier": "29894452333207489.52304219005532984.38967450039357",
       "source": "../common_linux",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_linux.git",
-        "revision": "943a36b370f2a545505aa478ce165e8a8f8039d7",
+        "revision": "c44bdab4ef9941f70b21824c9de393c4f46e9936",
         "working_tree_clean": true,
         "published": true,
         "synchronized_remote_branches": [
-          "origin/develop",
           "origin/master"
         ]
       },
@@ -47,19 +46,19 @@
       }
     },
     "common_auth": {
-      "version": "0.1.0",
-      "identifier": "c57c1afa7ed53dc9ba4d4d1c734034d05856c8f6",
-      "dotted_decimal_identifier": "55587025725609277.56781311487800128.58069439924470",
+      "version": "0.1.1",
+      "identifier": "ea486ef18628fce7e96723ab10fd8a8c0acab4f6",
+      "dotted_decimal_identifier": "65944785885997308.65277348809478397.152334081111286",
       "source": "../common_auth",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": "git@github.com:JonathanSerafini/chef-common_auth.git",
-        "revision": "a1c0f97fe3d133359ee3f5aa478ac3b05a824f78",
+        "remote": null,
+        "revision": "32ef49aca99cf39feb4395b600355510eb07b8e0",
         "working_tree_clean": true,
         "published": true,
         "synchronized_remote_branches": [
-          "origin/master"
+          "origin/develop"
         ]
       },
       "source_options": {
@@ -67,19 +66,19 @@
       }
     },
     "common_utils": {
-      "version": "0.1.0",
-      "identifier": "7174f9c11a1c34b8af0979851ecf74a8a871a065",
-      "dotted_decimal_identifier": "31935288403696692.51983850943094479.128267729346661",
+      "version": "0.1.1",
+      "identifier": "cedc7ff1467139d08bc93e5846d016149784f471",
+      "dotted_decimal_identifier": "58226287269278009.58700491606476496.24277697229937",
       "source": "../common_utils",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_utils.git",
-        "revision": "af00593dd674c47fada1f5341baef24c16da44ac",
+        "revision": "3f6209323ab3f8664a8d03e889a11cf2af02f7c9",
         "working_tree_clean": true,
         "published": true,
         "synchronized_remote_branches": [
-          "origin/master"
+          "origin/develop"
         ]
       },
       "source_options": {
@@ -115,6 +114,28 @@
       "source_options": {
         "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/chef-client/versions/4.3.2/download",
         "version": "4.3.2"
+      }
+    },
+    "apt": {
+      "version": "2.9.2",
+      "identifier": "aa7652cc9ec61ee4603d984cb5770169987ae0ea",
+      "dotted_decimal_identifier": "47980844033164830.64282112354465143.1553041383658",
+      "cache_key": "apt-2.9.2-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/apt/versions/2.9.2/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/apt/versions/2.9.2/download",
+        "version": "2.9.2"
+      }
+    },
+    "ubuntu": {
+      "version": "1.2.0",
+      "identifier": "e72ec65a3a9cd7390e8a9b7f39ca302903c3fad7",
+      "dotted_decimal_identifier": "65072149072354519.16060062149589450.52952714967767",
+      "cache_key": "ubuntu-1.2.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/ubuntu/versions/1.2.0/download",
+      "source_options": {
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/ubuntu/versions/1.2.0/download",
+        "version": "1.2.0"
       }
     },
     "ohai": {
@@ -205,17 +226,6 @@
         "version": "2.0.1"
       }
     },
-    "apt": {
-      "version": "2.9.2",
-      "identifier": "aa7652cc9ec61ee4603d984cb5770169987ae0ea",
-      "dotted_decimal_identifier": "47980844033164830.64282112354465143.1553041383658",
-      "cache_key": "apt-2.9.2-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/apt/versions/2.9.2/download",
-      "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/apt/versions/2.9.2/download",
-        "version": "2.9.2"
-      }
-    },
     "sudo": {
       "version": "2.7.2",
       "identifier": "2acc2abc453ce5b49b364f78bd2c7112f592afc0",
@@ -284,7 +294,72 @@
     }
   },
   "default_attributes": {
+    "ntp": {
+      "servers": [
+        "0.amazon.pool.ntp.org",
+        "1.amazon.pool.ntp.org",
+        "2.amazon.pool.ntp.org",
+        "3.amazon.pool.ntp.org"
+      ]
+    },
+    "common": {
+      "packages": {
+        "awscli": true,
+        "ec2-api-tools": true,
+        "git-core": true,
+        "python-setuptools": true,
+        "python-virtualenv": true,
+        "python-pip": true,
+        "python-docutils": true,
+        "ruby": true,
+        "ruby1.9.1-dev": true
+      },
+      "auth": {
+        "group": {
+          "managed": {
+            "kibana": true
+          }
+        }
+      },
+      "linux": {
+        "sudoers": {
+          "ubuntu": {
+            "user": "ubuntu",
+            "runas": "root",
+            "nopasswd": true
+          },
+          "deploy": {
+            "group": "deploy",
+            "runas": "root",
+            "nopasswd": true,
+            "commands": [
+              "/usr/bin/chef-client"
+            ]
+          },
+          "90-cloud-init-users": {
+            "tao": {
 
+            }
+          }
+        }
+      }
+    },
+    "authorization": {
+      "sudo": {
+        "groups": [
+          "devops"
+        ]
+      }
+    },
+    "openssh": {
+      "server": {
+        "allow_groups": [
+          "devops",
+          "deploy",
+          "vagrant"
+        ]
+      }
+    }
   },
   "override_attributes": {
 
@@ -314,6 +389,14 @@
       [
         "chef-client",
         "= 4.3.2"
+      ],
+      [
+        "apt",
+        "= 2.9.2"
+      ],
+      [
+        "ubuntu",
+        "= 1.2.0"
       ],
       [
         "ohai",
@@ -346,10 +429,6 @@
       [
         "iptables",
         "= 2.0.1"
-      ],
-      [
-        "apt",
-        "= 2.9.2"
       ],
       [
         "sudo",
@@ -391,9 +470,17 @@
           ">= 0.0.0"
         ]
       ],
-      "common_linux (0.1.0)": [
+      "common_linux (0.1.1)": [
         [
           "chef-client",
+          ">= 0.0.0"
+        ],
+        [
+          "apt",
+          ">= 0.0.0"
+        ],
+        [
+          "ubuntu",
           ">= 0.0.0"
         ],
         [
@@ -433,7 +520,7 @@
           ">= 0.0.0"
         ]
       ],
-      "common_auth (0.1.0)": [
+      "common_auth (0.1.1)": [
         [
           "common_utils",
           ">= 0.0.0"
@@ -447,7 +534,7 @@
           ">= 0.0.0"
         ]
       ],
-      "common_utils (0.1.0)": [
+      "common_utils (0.1.1)": [
 
       ],
       "rsyslog_ng (2.0.1)": [
@@ -468,6 +555,15 @@
         [
           "windows",
           "~> 1.37"
+        ]
+      ],
+      "apt (2.9.2)": [
+
+      ],
+      "ubuntu (1.2.0)": [
+        [
+          "apt",
+          ">= 0.0.0"
         ]
       ],
       "ohai (2.0.4)": [
@@ -502,9 +598,6 @@
           "compat_resource",
           ">= 0.0.0"
         ]
-      ],
-      "apt (2.9.2)": [
-
       ],
       "sudo (2.7.2)": [
 
