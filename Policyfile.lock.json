@@ -1,24 +1,24 @@
 {
-  "revision_id": "6ea54cb772db405e0e4bea3d9133428460110f37ce193bf2034844fffcc6c75f",
+  "revision_id": "a5b488f5589968f4c1ce715de519822f44d8581be7a9f9fd286809577c790d81",
   "name": "common_core",
   "run_list": [
     "recipe[common_core::default]"
   ],
   "cookbook_locks": {
     "common_core": {
-      "version": "0.1.0",
-      "identifier": "dcb0c7eaba88f1e5f2ca04523d2b80ef6a14b4ff",
-      "dotted_decimal_identifier": "62118867559418097.64724719136554283.141765765281023",
+      "version": "0.1.2",
+      "identifier": "be429a417f78b7e39aeb9101ac4fa64b1e6fd00e",
+      "dotted_decimal_identifier": "53553475866294455.64065156254116943.182841563402254",
       "source": ".",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_core.git",
-        "revision": "b5d1aaba61f8d6173375cfb04d6348e24a4d1aa9",
+        "revision": "dc985b8dff5cb993d2b5d9947f344c3065313431",
         "working_tree_clean": false,
-        "published": false,
+        "published": true,
         "synchronized_remote_branches": [
-
+          "origin/master"
         ]
       },
       "source_options": {
@@ -26,19 +26,19 @@
       }
     },
     "common_linux": {
-      "version": "0.1.1",
-      "identifier": "6a34d894135fc1b9d268fa143b382370d104743d",
-      "dotted_decimal_identifier": "29894452333207489.52304219005532984.38967450039357",
+      "version": "0.1.2",
+      "identifier": "bedb8f4860412e5799f11f3a871d82db067203df",
+      "dotted_decimal_identifier": "53721654016098606.24657583863924509.143877217584095",
       "source": "../common_linux",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_linux.git",
-        "revision": "c44bdab4ef9941f70b21824c9de393c4f46e9936",
+        "revision": "f2bcee5f2c493a53406d82b5d3b2f5d6bceabb48",
         "working_tree_clean": true,
-        "published": true,
+        "published": false,
         "synchronized_remote_branches": [
-          "origin/master"
+
         ]
       },
       "source_options": {
@@ -46,15 +46,15 @@
       }
     },
     "common_auth": {
-      "version": "0.1.1",
-      "identifier": "ea486ef18628fce7e96723ab10fd8a8c0acab4f6",
-      "dotted_decimal_identifier": "65944785885997308.65277348809478397.152334081111286",
+      "version": "0.1.2",
+      "identifier": "bdd43214b7eb80a85f58c23e7bfdd01d3d96a0a1",
+      "dotted_decimal_identifier": "53432082159364992.47392630908025853.228824005910689",
       "source": "../common_auth",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
-        "remote": null,
-        "revision": "32ef49aca99cf39feb4395b600355510eb07b8e0",
+        "remote": "git@github.com:JonathanSerafini/chef-common_auth.git",
+        "revision": "20f2402278aebcde3f316afeb90b25cbe31e1c42",
         "working_tree_clean": true,
         "published": true,
         "synchronized_remote_branches": [
@@ -66,15 +66,15 @@
       }
     },
     "common_utils": {
-      "version": "0.1.1",
-      "identifier": "cedc7ff1467139d08bc93e5846d016149784f471",
-      "dotted_decimal_identifier": "58226287269278009.58700491606476496.24277697229937",
+      "version": "0.1.2",
+      "identifier": "97cf8e25bcd0c0e7ed09742827046fc5c80c81c5",
+      "dotted_decimal_identifier": "42730930908745920.65281344479438596.122895255503301",
       "source": "../common_utils",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_utils.git",
-        "revision": "3f6209323ab3f8664a8d03e889a11cf2af02f7c9",
+        "revision": "36fdef12a589b8fb05f8bc222a0f7c5fe712a7a4",
         "working_tree_clean": true,
         "published": true,
         "synchronized_remote_branches": [
@@ -183,14 +183,14 @@
       }
     },
     "ntp": {
-      "version": "1.9.0",
-      "identifier": "9b280e3c8e8ece17cf679bd7580dfa85d840e18f",
-      "dotted_decimal_identifier": "43672663000780494.6701968367507469.275452765725071",
-      "cache_key": "ntp-1.9.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/ntp/versions/1.9.0/download",
+      "version": "1.9.1",
+      "identifier": "39008727897ac178a6f109a9f260b61c95b1b98c",
+      "dotted_decimal_identifier": "16044654156413633.33960551384740448.200233886792076",
+      "cache_key": "ntp-1.9.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/ntp/versions/1.9.1/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/ntp/versions/1.9.0/download",
-        "version": "1.9.0"
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/ntp/versions/1.9.1/download",
+        "version": "1.9.1"
       }
     },
     "sysctl": {
@@ -216,14 +216,14 @@
       }
     },
     "iptables": {
-      "version": "2.0.1",
-      "identifier": "682a3fd6f1c5b118dc13f0a05ff5f7441b03a17b",
-      "dotted_decimal_identifier": "29319851255383473.6997377640587253.271871883059579",
-      "cache_key": "iptables-2.0.1-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/iptables/versions/2.0.1/download",
+      "version": "1.1.0",
+      "identifier": "e4d673ba71d9fa2c83933a2b7f19e6a1103092c0",
+      "dotted_decimal_identifier": "64412087227636218.12529567334629145.253579435741888",
+      "cache_key": "iptables-1.1.0-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/iptables/versions/1.1.0/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/iptables/versions/2.0.1/download",
-        "version": "2.0.1"
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/iptables/versions/1.1.0/download",
+        "version": "1.1.0"
       }
     },
     "sudo": {
@@ -238,14 +238,14 @@
       }
     },
     "openssh": {
-      "version": "1.5.2",
-      "identifier": "dccc0bf6cce11d40ad5adf881c3e047fcf5d82c7",
-      "dotted_decimal_identifier": "62148846633672989.18205004318383166.4946986369735",
-      "cache_key": "openssh-1.5.2-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/openssh/versions/1.5.2/download",
+      "version": "1.6.1",
+      "identifier": "bd36571635e16a08849fc1bc9c2ff423b1f62351",
+      "dotted_decimal_identifier": "53258518260998506.2397621498715183.268434146730833",
+      "cache_key": "openssh-1.6.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/openssh/versions/1.6.1/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/openssh/versions/1.5.2/download",
-        "version": "1.5.2"
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/openssh/versions/1.6.1/download",
+        "version": "1.6.1"
       }
     },
     "compat_resource": {
@@ -260,14 +260,14 @@
       }
     },
     "windows": {
-      "version": "1.39.0",
-      "identifier": "1ee7d1d3eaa2f1be885ea07e29e35f472171e9cf",
-      "dotted_decimal_identifier": "8699137690870513.53630185575950819.104759108430287",
-      "cache_key": "windows-1.39.0-supermarket.chef.io",
-      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/1.39.0/download",
+      "version": "1.39.1",
+      "identifier": "0e98019b84499c168f6990c485c03a3dde825ec4",
+      "dotted_decimal_identifier": "4107782345476508.6350133050770880.64037400501956",
+      "cache_key": "windows-1.39.1-supermarket.chef.io",
+      "origin": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/1.39.1/download",
       "source_options": {
-        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/1.39.0/download",
-        "version": "1.39.0"
+        "artifactserver": "https://supermarket.chef.io:443/api/v1/cookbooks/windows/versions/1.39.1/download",
+        "version": "1.39.1"
       }
     },
     "logrotate": {
@@ -294,61 +294,46 @@
     }
   },
   "default_attributes": {
-    "ntp": {
-      "servers": [
-        "0.amazon.pool.ntp.org",
-        "1.amazon.pool.ntp.org",
-        "2.amazon.pool.ntp.org",
-        "3.amazon.pool.ntp.org"
-      ]
-    },
     "common": {
-      "packages": {
-        "awscli": true,
-        "ec2-api-tools": true,
-        "git-core": true,
-        "python-setuptools": true,
-        "python-virtualenv": true,
-        "python-pip": true,
-        "python-docutils": true,
-        "ruby": true,
-        "ruby1.9.1-dev": true
-      },
       "auth": {
-        "group": {
-          "managed": {
-            "kibana": true
-          }
-        }
-      },
-      "linux": {
-        "sudoers": {
-          "ubuntu": {
-            "user": "ubuntu",
-            "runas": "root",
-            "nopasswd": true
-          },
-          "deploy": {
-            "group": "deploy",
-            "runas": "root",
-            "nopasswd": true,
-            "commands": [
-              "/usr/bin/chef-client"
-            ]
-          },
-          "90-cloud-init-users": {
-            "tao": {
-
+        "users": {
+          "data_bag": "auth_users"
+        },
+        "groups": {
+          "data_bag": "auth_groups",
+          "config": {
+            "devops": {
+              "action": "create"
             }
           }
         }
-      }
-    },
-    "authorization": {
-      "sudo": {
-        "groups": [
-          "devops"
-        ]
+      },
+      "sudoers": {
+        "ubuntu": {
+          "user": "ubuntu",
+          "runas": "root",
+          "nopasswd": true
+        },
+        "deploy": {
+          "group": "deploy",
+          "runas": "root",
+          "nopasswd": true,
+          "commands": [
+            "/usr/bin/chef-client"
+          ]
+        },
+        "devops": {
+          "group": "devops",
+          "runas": "root"
+        },
+        "vagrant": {
+          "group": "vagrant",
+          "runas": "root",
+          "nopasswd": true
+        },
+        "90-cloud-init-users": {
+          "action": "remove"
+        }
       }
     },
     "openssh": {
@@ -362,7 +347,18 @@
     }
   },
   "override_attributes": {
-
+    "common": {
+      "environments": {
+        "active": [
+          "test"
+        ]
+      },
+      "namespaces": {
+        "active": [
+          "test"
+        ]
+      }
+    }
   },
   "solution_dependencies": {
     "Policyfile": [
@@ -416,7 +412,7 @@
       ],
       [
         "ntp",
-        "= 1.9.0"
+        "= 1.9.1"
       ],
       [
         "sysctl",
@@ -428,7 +424,7 @@
       ],
       [
         "iptables",
-        "= 2.0.1"
+        "= 1.1.0"
       ],
       [
         "sudo",
@@ -436,7 +432,7 @@
       ],
       [
         "openssh",
-        "= 1.5.2"
+        "= 1.6.1"
       ],
       [
         "compat_resource",
@@ -444,7 +440,7 @@
       ],
       [
         "windows",
-        "= 1.39.0"
+        "= 1.39.1"
       ],
       [
         "logrotate",
@@ -456,7 +452,7 @@
       ]
     ],
     "dependencies": {
-      "common_core (0.1.0)": [
+      "common_core (0.1.2)": [
         [
           "common_utils",
           ">= 0.0.0"
@@ -470,7 +466,7 @@
           ">= 0.0.0"
         ]
       ],
-      "common_linux (0.1.1)": [
+      "common_linux (0.1.2)": [
         [
           "chef-client",
           ">= 0.0.0"
@@ -520,7 +516,7 @@
           ">= 0.0.0"
         ]
       ],
-      "common_auth (0.1.1)": [
+      "common_auth (0.1.2)": [
         [
           "common_utils",
           ">= 0.0.0"
@@ -534,7 +530,7 @@
           ">= 0.0.0"
         ]
       ],
-      "common_utils (0.1.1)": [
+      "common_utils (0.1.2)": [
 
       ],
       "rsyslog_ng (2.0.1)": [
@@ -578,7 +574,7 @@
       "hostsfile (2.4.5)": [
 
       ],
-      "ntp (1.9.0)": [
+      "ntp (1.9.1)": [
         [
           "windows",
           ">= 0.0.0"
@@ -593,25 +589,22 @@
       "ulimit (0.3.3)": [
 
       ],
-      "iptables (2.0.1)": [
-        [
-          "compat_resource",
-          ">= 0.0.0"
-        ]
+      "iptables (1.1.0)": [
+
       ],
       "sudo (2.7.2)": [
 
       ],
-      "openssh (1.5.2)": [
+      "openssh (1.6.1)": [
         [
           "iptables",
-          ">= 0.0.0"
+          "~> 1.0"
         ]
       ],
       "compat_resource (12.5.26)": [
 
       ],
-      "windows (1.39.0)": [
+      "windows (1.39.1)": [
         [
           "chef_handler",
           ">= 0.0.0"
