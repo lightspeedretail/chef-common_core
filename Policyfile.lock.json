@@ -1,20 +1,20 @@
 {
-  "revision_id": "78f327ff8a3ea0fd7814a02d248e02c65c389f419ccd6f6f4e10c1ea9370961f",
+  "revision_id": "da7e38a490c027bc8126c4537e4291f509ade102f2d0b56dd18c977e6b01aaba",
   "name": "common_core",
   "run_list": [
     "recipe[common_core::default]"
   ],
   "cookbook_locks": {
     "common_core": {
-      "version": "0.1.1",
-      "identifier": "48a1bd5975bb352503506dcced18e1e5625638f6",
-      "dotted_decimal_identifier": "20444032944945973.10418218112707864.248375313578230",
+      "version": "0.1.2",
+      "identifier": "559ac4bc5b0b5f5f71fed0516d29ecd527e87099",
+      "dotted_decimal_identifier": "24095542784756575.26865462018141481.260400241733785",
       "source": ".",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_core.git",
-        "revision": "8bd3bcd4f302acfdd9753068671d9c181569e703",
+        "revision": "34e93b48d90b4ab3ce1dcd5b1d107f39e2dd26c8",
         "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
@@ -47,15 +47,15 @@
     },
     "common_auth": {
       "version": "0.1.2",
-      "identifier": "bdd43214b7eb80a85f58c23e7bfdd01d3d96a0a1",
-      "dotted_decimal_identifier": "53432082159364992.47392630908025853.228824005910689",
+      "identifier": "4aa660112ecf0fba72e3f86240148474255f4815",
+      "dotted_decimal_identifier": "21012079811940111.52480669118513172.145634378074133",
       "source": "../common_auth",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_auth.git",
         "revision": "20f2402278aebcde3f316afeb90b25cbe31e1c42",
-        "working_tree_clean": true,
+        "working_tree_clean": false,
         "published": true,
         "synchronized_remote_branches": [
           "origin/develop"
@@ -67,18 +67,18 @@
     },
     "common_utils": {
       "version": "0.1.2",
-      "identifier": "97cf8e25bcd0c0e7ed09742827046fc5c80c81c5",
-      "dotted_decimal_identifier": "42730930908745920.65281344479438596.122895255503301",
+      "identifier": "ec992ac84ba4bacdb9f62cbe61b4407f6ef1bf9a",
+      "dotted_decimal_identifier": "66596503531791546.57906837189452212.70916066361242",
       "source": "../common_utils",
       "cache_key": null,
       "scm_info": {
         "scm": "git",
         "remote": "git@github.com:JonathanSerafini/chef-common_utils.git",
-        "revision": "36fdef12a589b8fb05f8bc222a0f7c5fe712a7a4",
+        "revision": "2ecab6e64e2fed3704dd936150bd1052b39f92e4",
         "working_tree_clean": true,
-        "published": true,
+        "published": false,
         "synchronized_remote_branches": [
-          "origin/develop"
+
         ]
       },
       "source_options": {
@@ -502,23 +502,6 @@
           ">= 0.0.0"
         ]
       ],
-      "common_auth (0.1.2)": [
-        [
-          "common_utils",
-          ">= 0.0.0"
-        ],
-        [
-          "sudo",
-          ">= 0.0.0"
-        ],
-        [
-          "openssh",
-          ">= 0.0.0"
-        ]
-      ],
-      "common_utils (0.1.2)": [
-
-      ],
       "rsyslog_ng (2.0.1)": [
         [
           "apt",
@@ -602,7 +585,21 @@
       "chef_handler (1.2.0)": [
 
       ],
-      "common_core (0.1.1)": [
+      "common_auth (0.1.2)": [
+        [
+          "common_utils",
+          ">= 0.0.0"
+        ],
+        [
+          "sudo",
+          ">= 0.0.0"
+        ],
+        [
+          "openssh",
+          ">= 0.0.0"
+        ]
+      ],
+      "common_core (0.1.2)": [
         [
           "common_utils",
           ">= 0.0.0"
@@ -615,6 +612,9 @@
           "common_auth",
           ">= 0.0.0"
         ]
+      ],
+      "common_utils (0.1.2)": [
+
       ]
     }
   }

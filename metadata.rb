@@ -6,7 +6,7 @@ description 'Installs/Configures common_core'
 long_description 'Installs/Configures common_core'
 version '0.1.2'
 
-depends 'common_utils'
+depends 'common_attrs'
 depends 'common_linux'
 depends 'common_auth'
 
