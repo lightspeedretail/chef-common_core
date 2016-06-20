@@ -6,9 +6,8 @@ source_url 'https://github.com/JonathanSerafini/chef-common_core'
 license 'apachev2'
 description 'Installs/Configures common_core'
 long_description 'Installs/Configures common_core'
-version '0.1.3'
+version '0.2.0'
 
-depends 'common_attrs'
-depends 'common_linux'
-depends 'common_auth'
-
+depends 'common_attrs', '<= 0.4.1'
+depends 'common_linux', '<= 0.2.2'
+depends 'common_auth',  '<= 0.1.7'
