@@ -1,12 +1,18 @@
-common_core
+common\_core
 =======
 
-# v0.2.1
+v0.3.0
+------
+* Update common\_linux for compile time resources
+
+v0.2.1
+------
 * Update version pins to be more flexible
 
-# v0.2.0
+v0.2.0
+------
 * Add version pins for current common cookbooks
-  * common_attrs <= 0.4.1
-  * common_linux <= 0.2.2
-  * common_auth <= 0.1.7
+  * common\_attrs <= 0.4.1
+  * common\_linux <= 0.2.2
+  * common\_auth <= 0.1.7
 
