@@ -9,5 +9,5 @@ long_description 'Installs/Configures common_core'
 version '0.2.2'
 
 depends 'common_attrs', '~> 0.4.0'
-depends 'common_linux', '~> 0.2.0'
+depends 'common_linux', '~> 0.3.0'
 depends 'common_auth',  '~> 0.2.0'
