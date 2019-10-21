@@ -1,6 +1,10 @@
 common\_core
 =======
 
+v0.4.0
+------
+* Using common_linux v0.4.0
+
 v0.3.0
 ------
 * Update common\_linux for compile time resources
@@ -15,4 +19,3 @@ v0.2.0
   * common\_attrs <= 0.4.1
   * common\_linux <= 0.2.2
   * common\_auth <= 0.1.7
-

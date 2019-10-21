@@ -8,7 +8,7 @@ default[:common_auth].tap do |auth|
   auth[:users][:data_bag] = "auth_users"
   auth[:groups][:data_bag] = "auth_groups"
   auth[:groups][:config][:devops][:action] = "create"
-  
+
   auth[:sudoers][:ubuntu].tap do |sudoer|
     sudoer[:user] = "ubuntu"
     sudoer[:runas] = "root"
@@ -42,8 +42,16 @@ default[:openssh][:server][:allow_groups] = %w(devops deploy vagrant)
 
 run_list %w(common_core::default)
 
-cookbook "common_core",   path: "."
-cookbook "common_linux",  path: "../common_linux"
-cookbook "common_auth",   path: "../common_auth"
-cookbook "common_attrs",  path: "../common_attrs"
-cookbook "rsyslog_ng",    path: "../rsyslog_ng"
+cookbook 'common_core',   path: '.'
+cookbook 'common_linux',
+    git: 'git@github.com:lightspeedretail/chef-common_linux.git',
+    tag: 'v0.4.0'
+cookbook 'common_auth',
+    git: 'git@github.com:lightspeedretail/chef-common_auth.git',
+    tag: 'v0.2.1'
+cookbook 'common_attrs',
+    git: 'git@github.com:lightspeedretail/chef-common_attrs.git',
+    tag: 'v0.4.6'
+cookbook 'rsyslog_ng',
+    git: 'git@github.com:lightspeedretail/chef-rsyslog_ng.git',
+    tag: 'v2.1.1'
