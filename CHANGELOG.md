@@ -1,6 +1,14 @@
 common\_core
 =======
 
+v0.6.0
+------
+* Using common_linux v0.6.0
+
+v0.5.0
+------
+* Using common_linux v0.5.0
+
 v0.4.0
 ------
 * Using common_linux v0.4.0

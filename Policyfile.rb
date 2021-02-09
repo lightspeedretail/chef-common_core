@@ -45,7 +45,7 @@ run_list %w(common_core::default)
 cookbook 'common_core',   path: '.'
 cookbook 'common_linux',
     git: 'git@github.com:lightspeedretail/chef-common_linux.git',
-    tag: 'v0.5.0'
+    tag: 'v0.6.0'
 cookbook 'common_auth',
     git: 'git@github.com:lightspeedretail/chef-common_auth.git',
     tag: 'v0.2.1'
